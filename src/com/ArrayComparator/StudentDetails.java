@@ -17,6 +17,7 @@ public class StudentDetails{
             }
             Arrays.sort(students,(s1,s2)->s1.getName().compareTo(s2.getName()));
             IO.println(Arrays.toString(students));
+            System.out.println("Completed sucess");
     }
 }
 class Student{
